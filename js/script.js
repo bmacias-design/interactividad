@@ -6,7 +6,7 @@ document.addEventListener("click", function() {
 let red = 0 , green = 0, blue = 0;
 
 
-document.body.addEventListener('click', changeColor);
+document.addEventListener('click', changeColor);
  
 function changeColor() {
     red = Math.random() * 255;
